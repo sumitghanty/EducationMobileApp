@@ -7,6 +7,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
+
 function StudentScreen() {
   return (
     <View style={{
@@ -167,20 +168,20 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     justifyContent:'center',
-    padding: 5,
+    padding: 8,
     marginBottom:5,
     backgroundColor:'white',
     borderColor: '#ffffff',
     borderWidth: 1,
     shadowColor: "#cccccc",
 shadowOffset: {
-	width: 0,
-	height: 1,
+    width: 0,
+    height: 1,
 },
 shadowOpacity: 0.22,
 shadowRadius: 2.22,
 
-elevation: 1,
+elevation: 4,
   },
   profile:{
     overflow:'hidden',
@@ -189,20 +190,20 @@ elevation: 1,
     height:50,
     position:'absolute',
     right:10,
-    borderColor: '#bbb',
+    borderColor: '#cccccc',
     borderWidth: 1,
     
   },
   rectangle: {
-    height: 220,
-    width: '90%',
+    height: 235,
+    width: '88%',
     backgroundColor: 'white',
     display:'flex',
     justifyContent:'center',
     alignSelf:'center',
     alignItems: 'center',
     textAlign:'center',
-    borderRadius:2,
+    borderRadius:8,
     // borderColor: '#dddddd',
     // borderWidth: 1,
     padding: 8,
@@ -211,13 +212,13 @@ elevation: 1,
     borderWidth: 1,
     shadowColor: "#cccccc",
 shadowOffset: {
-	width: 0,
-	height: 1,
+    width: 0,
+    height: 1,
 },
 shadowOpacity: 0.22,
 shadowRadius: 2.22,
 
-elevation: 6,
+elevation: 8,
 
   },
   cardicon: {
@@ -234,7 +235,6 @@ elevation: 6,
     right:10,
   }
 });
-
 // const App = () => {
 //   return (
 //      <ImagesExample />
